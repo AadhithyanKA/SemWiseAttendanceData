@@ -15,6 +15,7 @@ output/*
 
 # PyInstaller
 # *.spec
+!app.spec
 dist/
 build/
 
