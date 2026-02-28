@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Data
+data/*
+!data/sample_attendance.csv
+output/*
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
