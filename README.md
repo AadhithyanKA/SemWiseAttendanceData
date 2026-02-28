@@ -6,6 +6,7 @@ This project processes student attendance data to generate detailed reports.
 
 - **Student-wise Report**: Detailed attendance statistics for each student across all enrolled courses.
 - **Summary Report**: Department and Semester-wise aggregation of attendance performance.
+- **Windows Executable**: You can download the latest Windows build from the GitHub Actions tab.
 
 ## Setup
 
