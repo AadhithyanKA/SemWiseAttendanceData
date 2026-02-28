@@ -14,7 +14,7 @@ data/*
 output/*
 
 # PyInstaller
-*.spec
+# *.spec
 dist/
 build/
 
