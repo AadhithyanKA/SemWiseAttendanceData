@@ -17,11 +17,14 @@ if __name__ == "__main__":
         app_path = resolve_path("app.py")
 
     # Configure streamlit args
+    # Include original arguments passed to the executable
+    args = sys.argv[1:]
+    
     sys.argv = [
         "streamlit",
         "run",
         app_path,
         "--global.developmentMode=false",
-    ]
+    ] + args
     
     sys.exit(stcli.main())

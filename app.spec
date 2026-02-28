@@ -13,7 +13,7 @@ a = Analysis(
     ['src/launcher.py'],
     pathex=[],
     binaries=[],
-    datas=datas + [('src/app.py', '.'), ('src/generate_reports.py', '.')],
+    datas=datas + [('src/app.py', '.'), ('src/generate_reports.py', '.'), ('run_host.bat', '.')],
     hiddenimports=['streamlit', 'streamlit.runtime.scriptrunner.magic_funcs', 'streamlit.runtime.scriptrunner.script_runner', 'streamlit.web.cli'],
     hookspath=['./hooks'],
     hooksconfig={},
